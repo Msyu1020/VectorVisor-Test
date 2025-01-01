@@ -1,0 +1,28 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "c-library/src/ittnotify/" "-I" "c-library/include/" "-Wall" "-Wextra" "-o" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/c-library/src/ittnotify/ittnotify_static.o" "-c" "c-library/src/ittnotify/ittnotify_static.c"
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "c-library/src/ittnotify/" "-I" "c-library/include/" "-Wall" "-Wextra" "-o" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/c-library/src/ittnotify/jitprofiling.o" "-c" "c-library/src/ittnotify/jitprofiling.c"
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/libittnotify.a" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/c-library/src/ittnotify/ittnotify_static.o" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/c-library/src/ittnotify/jitprofiling.o"
+exit status: 0
+running: "ar" "s" "/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out/libittnotify.a"
+exit status: 0
+cargo:rustc-link-lib=static=ittnotify
+cargo:rustc-link-search=native=/home/mist/cloud/VectorVisor-master/target/release/build/ittapi-sys-b8e8a9165eb30457/out

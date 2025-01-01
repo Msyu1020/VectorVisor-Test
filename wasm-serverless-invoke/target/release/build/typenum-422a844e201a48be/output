@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/mist/cloud/VectorVisor-master/wasm-serverless-invoke/target/release/build/typenum-422a844e201a48be/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/mist/cloud/VectorVisor-master/wasm-serverless-invoke/target/release/build/typenum-422a844e201a48be/out/op.rs

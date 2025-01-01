@@ -1,0 +1,15 @@
+cargo:rustc-link-search=native=/usr/local/cuda/lib64
+cargo:rustc-link-search=native=/usr/local/cuda/lib64/stubs
+cargo:rustc-link-search=native=/usr/local/cuda/targets/x86_64-linux/lib
+cargo:rustc-link-search=native=/usr/local/cuda/targets/x86_64-linux/lib/stubs
+cargo:rustc-link-search=native=/usr/local/cuda-11/lib64
+cargo:rustc-link-search=native=/usr/local/cuda-11/lib64/stubs
+cargo:rustc-link-search=native=/usr/local/cuda-11/targets/x86_64-linux/lib
+cargo:rustc-link-search=native=/usr/local/cuda-11/targets/x86_64-linux/lib/stubs
+cargo:rustc-link-search=native=/usr/local/cuda-11.6/lib64
+cargo:rustc-link-search=native=/usr/local/cuda-11.6/lib64/stubs
+cargo:rustc-link-search=native=/usr/local/cuda-11.6/targets/x86_64-linux/lib
+cargo:rustc-link-search=native=/usr/local/cuda-11.6/targets/x86_64-linux/lib/stubs
+cargo:rustc-link-lib=dylib=cuda
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-env-changed=CUDA_LIBRARY_PATH

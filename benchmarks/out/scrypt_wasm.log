@@ -1,0 +1,470 @@
+[src/main.rs:365] matches.clone() = ArgMatches {
+    args: {
+        "interleave": MatchedArg {
+            occurs: 0,
+            indices: [
+                22,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "heap": MatchedArg {
+            occurs: 1,
+            indices: [
+                6,
+            ],
+            vals: [
+                "3145728",
+            ],
+        },
+        "hcallsize": MatchedArg {
+            occurs: 1,
+            indices: [
+                10,
+            ],
+            vals: [
+                "131072",
+            ],
+        },
+        "mexec": MatchedArg {
+            occurs: 0,
+            indices: [
+                45,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "volatile": MatchedArg {
+            occurs: 0,
+            indices: [
+                37,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "maxdup": MatchedArg {
+            occurs: 0,
+            indices: [
+                42,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "stack": MatchedArg {
+            occurs: 1,
+            indices: [
+                8,
+            ],
+            vals: [
+                "262144",
+            ],
+        },
+        "numfuncs": MatchedArg {
+            occurs: 0,
+            indices: [
+                33,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "pinput": MatchedArg {
+            occurs: 0,
+            indices: [
+                46,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "entry": MatchedArg {
+            occurs: 0,
+            indices: [
+                32,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "input": MatchedArg {
+            occurs: 1,
+            indices: [
+                2,
+            ],
+            vals: [
+                "./benchmarks/scrypt-opt-8.wasm",
+            ],
+        },
+        "fastreply": MatchedArg {
+            occurs: 1,
+            indices: [
+                20,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "unsafewrite": MatchedArg {
+            occurs: 0,
+            indices: [
+                26,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "isgpu": MatchedArg {
+            occurs: 0,
+            indices: [
+                23,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "serverless": MatchedArg {
+            occurs: 1,
+            indices: [
+                14,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "callstack": MatchedArg {
+            occurs: 0,
+            indices: [
+                27,
+            ],
+            vals: [
+                "1024",
+            ],
+        },
+        "vmcount": MatchedArg {
+            occurs: 1,
+            indices: [
+                16,
+            ],
+            vals: [
+                "4096",
+            ],
+        },
+        "ldflags": MatchedArg {
+            occurs: 0,
+            indices: [
+                31,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "debugcallprint": MatchedArg {
+            occurs: 0,
+            indices: [
+                28,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "port": MatchedArg {
+            occurs: 0,
+            indices: [
+                39,
+            ],
+            vals: [
+                "8080",
+            ],
+        },
+        "disablefastcalls": MatchedArg {
+            occurs: 0,
+            indices: [
+                43,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "ip": MatchedArg {
+            occurs: 1,
+            indices: [
+                4,
+            ],
+            vals: [
+                "0.0.0.0",
+            ],
+        },
+        "localworkgroup": MatchedArg {
+            occurs: 0,
+            indices: [
+                44,
+            ],
+            vals: [
+                "999999",
+            ],
+        },
+        "reqtimeout": MatchedArg {
+            occurs: 0,
+            indices: [
+                48,
+            ],
+            vals: [
+                "2000",
+            ],
+        },
+        "patch": MatchedArg {
+            occurs: 0,
+            indices: [
+                25,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "vmgroups": MatchedArg {
+            occurs: 0,
+            indices: [
+                21,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "partition": MatchedArg {
+            occurs: 1,
+            indices: [
+                12,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "jitcache": MatchedArg {
+            occurs: 0,
+            indices: [
+                36,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "partitions": MatchedArg {
+            occurs: 0,
+            indices: [
+                40,
+            ],
+            vals: [
+                "100",
+            ],
+        },
+        "globals-buffer-size": MatchedArg {
+            occurs: 0,
+            indices: [
+                34,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "cflags": MatchedArg {
+            occurs: 0,
+            indices: [
+                29,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "nvidia": MatchedArg {
+            occurs: 0,
+            indices: [
+                24,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "wasmtime": MatchedArg {
+            occurs: 1,
+            indices: [
+                18,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "compile": MatchedArg {
+            occurs: 0,
+            indices: [
+                35,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "printreturn": MatchedArg {
+            occurs: 0,
+            indices: [
+                30,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "forceinline": MatchedArg {
+            occurs: 0,
+            indices: [
+                38,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "maxloc": MatchedArg {
+            occurs: 0,
+            indices: [
+                41,
+            ],
+            vals: [
+                "500000",
+            ],
+        },
+        "max_smem_demo_space": MatchedArg {
+            occurs: 0,
+            indices: [
+                47,
+            ],
+            vals: [
+                "0",
+            ],
+        },
+        "profile": MatchedArg {
+            occurs: 0,
+            indices: [
+                49,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+    },
+    subcommand: None,
+    usage: Some(
+        "USAGE:\n    vectorvisor [OPTIONS] --input <>",
+    ),
+}
+[src/main.rs:421] compile_args.clone() = ""
+Starting server on: 0.0.0.0:8080/batch_submit
+Starting Wasmtime VM: 0
+Starting Wasmtime VM: 1
+Starting Wasmtime VM: 2
+Starting Wasmtime VM: 3
+Starting Wasmtime VM: 4
+Starting Wasmtime VM: 5
+Starting Wasmtime VM: 6
+Starting Wasmtime VM: 7
+Starting Wasmtime VM: 8
+Starting Wasmtime VM: 9
+Starting Wasmtime VM: 10
+Starting Wasmtime VM: 11
+thread 'thread '<unnamed>thread '<unnamed><unnamed>' panicked at ' panicked at ' panicked at src/wasmtime_runner.rs:src/wasmtime_runner.rs:src/wasmtime_runner.rs272:272::68:
+68:
+272called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+:note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+68:
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+thread 'thread '<unnamed>' panicked at <unnamed>' panicked at src/wasmtime_runner.rssrc/wasmtime_runner.rs::272272::68:
+thread '68:
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+<unnamed>called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+' panicked at src/wasmtime_runner.rs:272:68:
+thread 'called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+<unnamed>' panicked at 
+thread 'src/wasmtime_runner.rs:<unnamed>thread '<unnamed>272' panicked at src/wasmtime_runner.rs' panicked at src/wasmtime_runner.rs:thread '<unnamed>::27268:
+' panicked at 272::68thread 'called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+src/wasmtime_runner.rs68:
+:
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+<unnamed>' panicked at 
+:272called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+
+src/wasmtime_runner.rs:thread ':68<unnamed>' panicked at 272:
+src/wasmtime_runner.rs::called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+272:68:
+
+68:
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+called `Result::unwrap()` on an `Err` value: wasm trap: wasm `unreachable` instruction executed
+wasm backtrace:
+    0: 0x12b88 - <unknown>!core::result::unwrap_failed::h0c9b525dd5a26387
+    1: 0x9dc8 - <unknown>!scrypt::main::h3d36e5cee8a7d001
+    2: 0x1186d - <unknown>!__main_void
+    3: 0x167cc - <unknown>!_start
+
+

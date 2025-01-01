@@ -1,0 +1,14 @@
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/settings.rs
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/types.rs
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/opcodes.rs
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/clif.isle
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/inst_builder.rs
+Writing generated file: /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/settings-x86.rs
+Rebuilding /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_x64.rs
+Writing ISLE-generated Rust code to /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_x64.rs
+Rebuilding /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_aarch64.rs
+Writing ISLE-generated Rust code to /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_aarch64.rs
+Rebuilding /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_s390x.rs
+Writing ISLE-generated Rust code to /home/mist/cloud/VectorVisor-master/target/release/build/cranelift-codegen-995c427c870ecac8/out/isle_s390x.rs
+fatal: 不是一个 git 仓库（或者直至挂载点 /home 的任何父目录）
+停止在文件系统边界（未设置 GIT_DISCOVERY_ACROSS_FILESYSTEM）。

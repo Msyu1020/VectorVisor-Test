@@ -1,0 +1,1 @@
+/home/mist/cloud/VectorVisor-master/benchmarks/imageblur-bmp/target/wasm32-wasi/release/imageblur-bmp.wasm: /home/mist/cloud/VectorVisor-master/benchmarks/imageblur-bmp/src/main.rs /home/mist/cloud/VectorVisor-master/wasm-serverless-invoke/src/lib.rs /home/mist/cloud/VectorVisor-master/wasm-serverless-invoke/src/wasm_handler.rs

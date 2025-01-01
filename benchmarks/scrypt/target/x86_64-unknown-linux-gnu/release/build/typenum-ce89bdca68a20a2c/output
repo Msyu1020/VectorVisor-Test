@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/mist/cloud/VectorVisor-master/benchmarks/scrypt/target/x86_64-unknown-linux-gnu/release/build/typenum-ce89bdca68a20a2c/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/mist/cloud/VectorVisor-master/benchmarks/scrypt/target/x86_64-unknown-linux-gnu/release/build/typenum-ce89bdca68a20a2c/out/op.rs

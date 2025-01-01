@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/mist/cloud/VectorVisor-master/benchmarks/cuda-blur/target/x86_64-unknown-linux-gnu/release/build/typenum-1ef84e98222f4411/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/mist/cloud/VectorVisor-master/benchmarks/cuda-blur/target/x86_64-unknown-linux-gnu/release/build/typenum-1ef84e98222f4411/out/op.rs

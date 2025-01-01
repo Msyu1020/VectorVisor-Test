@@ -1,0 +1,373 @@
+[src/main.rs:365] matches.clone() = ArgMatches {
+    args: {
+        "heap": MatchedArg {
+            occurs: 1,
+            indices: [
+                6,
+            ],
+            vals: [
+                "4194304",
+            ],
+        },
+        "unsafewrite": MatchedArg {
+            occurs: 0,
+            indices: [
+                26,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "numfuncs": MatchedArg {
+            occurs: 0,
+            indices: [
+                33,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "jitcache": MatchedArg {
+            occurs: 0,
+            indices: [
+                36,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "nvidia": MatchedArg {
+            occurs: 0,
+            indices: [
+                24,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "port": MatchedArg {
+            occurs: 0,
+            indices: [
+                39,
+            ],
+            vals: [
+                "8080",
+            ],
+        },
+        "input": MatchedArg {
+            occurs: 1,
+            indices: [
+                2,
+            ],
+            vals: [
+                "./benchmarks/imageblur-bmp-opt-4.wasm",
+            ],
+        },
+        "interleave": MatchedArg {
+            occurs: 0,
+            indices: [
+                22,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "maxdup": MatchedArg {
+            occurs: 0,
+            indices: [
+                42,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "ldflags": MatchedArg {
+            occurs: 0,
+            indices: [
+                31,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "maxloc": MatchedArg {
+            occurs: 0,
+            indices: [
+                41,
+            ],
+            vals: [
+                "500000",
+            ],
+        },
+        "disablefastcalls": MatchedArg {
+            occurs: 0,
+            indices: [
+                43,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "wasmtime": MatchedArg {
+            occurs: 1,
+            indices: [
+                18,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "cflags": MatchedArg {
+            occurs: 0,
+            indices: [
+                29,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "serverless": MatchedArg {
+            occurs: 1,
+            indices: [
+                14,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "profile": MatchedArg {
+            occurs: 0,
+            indices: [
+                49,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "localworkgroup": MatchedArg {
+            occurs: 0,
+            indices: [
+                44,
+            ],
+            vals: [
+                "999999",
+            ],
+        },
+        "partition": MatchedArg {
+            occurs: 1,
+            indices: [
+                12,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "callstack": MatchedArg {
+            occurs: 0,
+            indices: [
+                27,
+            ],
+            vals: [
+                "1024",
+            ],
+        },
+        "patch": MatchedArg {
+            occurs: 0,
+            indices: [
+                25,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "stack": MatchedArg {
+            occurs: 1,
+            indices: [
+                8,
+            ],
+            vals: [
+                "262144",
+            ],
+        },
+        "vmcount": MatchedArg {
+            occurs: 1,
+            indices: [
+                16,
+            ],
+            vals: [
+                "3072",
+            ],
+        },
+        "isgpu": MatchedArg {
+            occurs: 0,
+            indices: [
+                23,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "entry": MatchedArg {
+            occurs: 0,
+            indices: [
+                32,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "mexec": MatchedArg {
+            occurs: 0,
+            indices: [
+                45,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "forceinline": MatchedArg {
+            occurs: 0,
+            indices: [
+                38,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "pinput": MatchedArg {
+            occurs: 0,
+            indices: [
+                46,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "max_smem_demo_space": MatchedArg {
+            occurs: 0,
+            indices: [
+                47,
+            ],
+            vals: [
+                "0",
+            ],
+        },
+        "volatile": MatchedArg {
+            occurs: 0,
+            indices: [
+                37,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "debugcallprint": MatchedArg {
+            occurs: 0,
+            indices: [
+                28,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "globals-buffer-size": MatchedArg {
+            occurs: 0,
+            indices: [
+                34,
+            ],
+            vals: [
+                "",
+            ],
+        },
+        "fastreply": MatchedArg {
+            occurs: 1,
+            indices: [
+                20,
+            ],
+            vals: [
+                "true",
+            ],
+        },
+        "compile": MatchedArg {
+            occurs: 0,
+            indices: [
+                35,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+        "vmgroups": MatchedArg {
+            occurs: 0,
+            indices: [
+                21,
+            ],
+            vals: [
+                "1",
+            ],
+        },
+        "partitions": MatchedArg {
+            occurs: 0,
+            indices: [
+                40,
+            ],
+            vals: [
+                "100",
+            ],
+        },
+        "reqtimeout": MatchedArg {
+            occurs: 0,
+            indices: [
+                48,
+            ],
+            vals: [
+                "2000",
+            ],
+        },
+        "ip": MatchedArg {
+            occurs: 1,
+            indices: [
+                4,
+            ],
+            vals: [
+                "0.0.0.0",
+            ],
+        },
+        "hcallsize": MatchedArg {
+            occurs: 1,
+            indices: [
+                10,
+            ],
+            vals: [
+                "225280",
+            ],
+        },
+        "printreturn": MatchedArg {
+            occurs: 0,
+            indices: [
+                30,
+            ],
+            vals: [
+                "false",
+            ],
+        },
+    },
+    subcommand: None,
+    usage: Some(
+        "USAGE:\n    vectorvisor [OPTIONS] --input <>",
+    ),
+}
+[src/main.rs:421] compile_args.clone() = ""
+Starting server on: 0.0.0.0:8080/batch_submit
+Starting Wasmtime VM: 0
+Starting Wasmtime VM: 1
+Starting Wasmtime VM: 2
+Starting Wasmtime VM: 3
+Starting Wasmtime VM: 4
+Starting Wasmtime VM: 5
+Starting Wasmtime VM: 6
+Starting Wasmtime VM: 7
+Starting Wasmtime VM: 8
+Starting Wasmtime VM: 9
+Starting Wasmtime VM: 10
+Starting Wasmtime VM: 11

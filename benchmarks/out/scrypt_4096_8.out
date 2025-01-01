@@ -1,0 +1,30 @@
+$  go run ./run_scrypt.go 127.0.0.1 8080 4096  1 300  256
+server is active... starting benchmark
+Benchmark complete: 35471 requests completed
+duration: 300.000000
+Total RPS: 118.236667
+On device execution time: 14103819528.924925
+Average request latency: 32225284606.388908
+queue submit time: 5352.655183
+submit count: 1.000000
+unique fns: 1.000000
+Request Queue Time: 9978.822475
+Device Time: 32075283171.498886
+overhead: 184574433.962166
+compile time: 435240906319.416565
+
+
+$  go run ./run_scrypt.go 127.0.0.1 8080 4096  1 300  256
+server is active... starting benchmark
+Benchmark complete: 36708 requests completed
+duration: 300.000000
+Total RPS: 122.360000
+On device execution time: 14714524522.168028
+Average request latency: 31759337826.456493
+queue submit time: 6302.831862
+submit count: 1.000000
+unique fns: 1.000000
+Request Queue Time: 8175.593195
+Device Time: 31693779813.879425
+overhead: 242350097.546475
+compile time: 435240906319.436218

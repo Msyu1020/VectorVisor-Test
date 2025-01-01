@@ -1,0 +1,28 @@
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rustc-cfg=asm
+cargo:rustc-cfg=switchable_stack
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-xassembler-with-cpp" "-DCFG_TARGET_OS_linux" "-DCFG_TARGET_ARCH_x86_64" "-DCFG_TARGET_ENV_gnu" "-o" "/home/mist/cloud/VectorVisor-master/target/release/build/psm-a6b02e9d4d61ee91/out/src/arch/x86_64.o" "-c" "src/arch/x86_64.s"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/home/mist/cloud/VectorVisor-master/target/release/build/psm-a6b02e9d4d61ee91/out/libpsm_s.a" "/home/mist/cloud/VectorVisor-master/target/release/build/psm-a6b02e9d4d61ee91/out/src/arch/x86_64.o"
+exit status: 0
+running: "ar" "s" "/home/mist/cloud/VectorVisor-master/target/release/build/psm-a6b02e9d4d61ee91/out/libpsm_s.a"
+exit status: 0
+cargo:rustc-link-lib=static=psm_s
+cargo:rustc-link-search=native=/home/mist/cloud/VectorVisor-master/target/release/build/psm-a6b02e9d4d61ee91/out

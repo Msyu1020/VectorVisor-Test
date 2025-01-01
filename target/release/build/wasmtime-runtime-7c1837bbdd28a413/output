@@ -1,0 +1,28 @@
+cargo:rerun-if-changed=src/helpers.c
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-DCFG_TARGET_OS_linux" "-DCFG_TARGET_ARCH_x86_64" "-o" "/home/mist/cloud/VectorVisor-master/target/release/build/wasmtime-runtime-7c1837bbdd28a413/out/src/helpers.o" "-c" "src/helpers.c"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/home/mist/cloud/VectorVisor-master/target/release/build/wasmtime-runtime-7c1837bbdd28a413/out/libwasmtime-helpers.a" "/home/mist/cloud/VectorVisor-master/target/release/build/wasmtime-runtime-7c1837bbdd28a413/out/src/helpers.o"
+exit status: 0
+running: "ar" "s" "/home/mist/cloud/VectorVisor-master/target/release/build/wasmtime-runtime-7c1837bbdd28a413/out/libwasmtime-helpers.a"
+exit status: 0
+cargo:rustc-link-lib=static=wasmtime-helpers
+cargo:rustc-link-search=native=/home/mist/cloud/VectorVisor-master/target/release/build/wasmtime-runtime-7c1837bbdd28a413/out
+cargo:rustc-cfg=memory_init_cow

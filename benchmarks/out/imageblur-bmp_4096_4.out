@@ -1,0 +1,14 @@
+$ go run ./run_image_blur.go 127.0.0.1 8080 4096  1 300 
+server is active... starting benchmark
+Benchmark complete: 212992 requests completed
+duration: 300.000000
+Total RPS: 709.973333
+On device execution time: 2870083189.538462
+Average request latency: 5734060454.539827
+queue submit time: 5364.307692
+submit count: 1.000000
+unique fns: 1.000000
+Request Queue Time: 12525.382827
+Device Time: 5644292633.012080
+overhead: 541112486.894231
+compile time: 771082500145.960083

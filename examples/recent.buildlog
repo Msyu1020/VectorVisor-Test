@@ -1,0 +1,17 @@
+
+buildlog for partition idx: 99999
+
+buildlog for partition idx: 0
+<kernel>:1366:271: warning: incompatible pointer types passing '__local uchar *' (aka '__local unsigned char *') to parameter of type '__local ulong2 *'
+                        __func_func__start(stack_u32, stack_u64, heap_u32, heap_u64, hypercall_buffer, globals_buffer, stack_frames, sp, sfp, call_stack, call_return_stack, hypercall_number, hypercall_continuation, current_mem_size, max_mem_size, is_calling, warp_idx, thread_idx, read_idx, (local uchar*)scratch_space, *hcall_size, entry_point, overhead_tracker, *hcall_ret_val);
+                                                                                                                                                                                                                                                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+<kernel>:426:19: note: passing argument to parameter 'scratch_space' here
+    local ulong2 *scratch_space,
+                  ^
+<kernel>:1369:275: warning: incompatible pointer types passing '__local uchar *' (aka '__local unsigned char *') to parameter of type '__local ulong2 *'
+                        __func_func__factorial(stack_u32, stack_u64, heap_u32, heap_u64, hypercall_buffer, globals_buffer, stack_frames, sp, sfp, call_stack, call_return_stack, hypercall_number, hypercall_continuation, current_mem_size, max_mem_size, is_calling, warp_idx, thread_idx, read_idx, (local uchar*)scratch_space, *hcall_size, entry_point, overhead_tracker, *hcall_ret_val);
+                                                                                                                                                                                                                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+<kernel>:511:19: note: passing argument to parameter 'scratch_space' here
+    local ulong2 *scratch_space,
+                  ^
+(): Warning: Function wasm_entry is a kernel, so overriding noinline attribute. The function may be inlined when called.

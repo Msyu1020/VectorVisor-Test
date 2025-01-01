@@ -1,0 +1,33 @@
+/home/mist/cloud/VectorVisor-master/benchmarks/scrypt
+$ go run run_scrypt.go 127.0.0.1 8080 64 1 300 256
+server is active... starting benchmark
+Benchmark complete: 819 requests completed
+duration: 300.000000
+Total RPS: 2.730000
+On device execution time: 12772063564.581196
+Average request latency: 22997883316.122101
+queue submit time: 4974.183150
+submit count: 1.000000
+unique fns: 1.000000
+Request Queue Time: 9811.323565
+Device Time: 22996472112.019535
+overhead: 117114644.942613
+compile time: 478714095441.000000
+
+
+
+
+go run ./run_scrypt.go 127.0.0.1 8080 2048  1 300  256
+server is active... starting benchmark
+Benchmark complete: 12296 requests completed
+duration: 300.000000
+Total RPS: 40.986667
+On device execution time: 24462225895.266102
+Average request latency: 43350727976.457306
+queue submit time: 1763808.442420
+submit count: 1.000000
+unique fns: 1.000000
+Request Queue Time: 11280.973162
+Device Time: 43198984131.456978
+overhead: 342329804.616786
+compile time: 493368706247.000000

@@ -1,0 +1,140 @@
+   Compiling h2 v0.3.14
+   Compiling flume v0.10.14
+   Compiling tempfile v3.3.0
+   Compiling want v0.3.0
+   Compiling serde_json v1.0.85
+   Compiling tungstenite v0.14.0
+   Compiling crossbeam-queue v0.3.6
+   Compiling futures-channel v0.3.24
+   Compiling mime_guess v2.0.4
+   Compiling num-rational v0.4.1
+   Compiling buf_redux v0.8.4
+   Compiling jpeg-decoder v0.2.6
+   Compiling sha1 v0.10.5
+   Compiling cuda-driver-sys v0.3.0
+   Compiling http-body v0.4.5
+   Compiling headers-core v0.2.0
+   Compiling threadpool v1.8.1
+   Compiling twoway v0.1.8
+   Compiling color_quant v1.1.0
+   Compiling tower-service v0.3.2
+   Compiling paste v1.0.9
+   Compiling half v1.8.2
+   Compiling quick-error v1.2.3
+   Compiling lebe v0.5.2
+   Compiling bit_field v0.10.1
+   Compiling headers v0.3.8
+   Compiling hyper v0.14.20
+   Compiling gif v0.11.4
+   Compiling exr v1.5.1
+   Compiling multipart v0.18.0
+   Compiling tiff v0.7.3
+   Compiling tokio-tungstenite v0.15.0
+   Compiling rmp v0.8.11
+   Compiling serde_urlencoded v0.7.1
+   Compiling png v0.17.6
+   Compiling tokio-stream v0.1.10
+   Compiling tokio-util v0.6.10
+   Compiling rustacuda_derive v0.1.2
+   Compiling scoped_threadpool v0.1.9
+   Compiling rustacuda_core v0.1.2
+   Compiling bytemuck v1.12.1
+   Compiling scoped-tls v1.0.0
+   Compiling rmp-serde v0.15.5
+   Compiling crossbeam v0.8.2
+   Compiling image v0.24.3
+   Compiling warp v0.3.2
+   Compiling rustacuda v0.1.3
+   Compiling cuda-blur v0.1.0 (/home/mist/cloud/VectorVisor-master/benchmarks/cuda-blur)
+warning: unused import: `rustacuda::memory::DeviceBox`
+ --> src/main.rs:7:5
+  |
+7 | use rustacuda::memory::DeviceBox;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unreachable expression
+   --> src/main.rs:295:9
+    |
+294 |         std::process::exit(0);
+    |         --------------------- any code following this expression is unreachable
+295 |         format!("terminate")
+    |         ^^^^^^^^^^^^^^^^^^^^ unreachable expression
+    |
+    = note: `#[warn(unreachable_code)]` on by default
+    = note: this warning originates in the macro `format` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unused variable: `idx`
+   --> src/main.rs:194:9
+    |
+194 |     for idx in 0..num_threads {
+    |         ^^^ help: if this is intentional, prefix it with an underscore: `_idx`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `idx`
+   --> src/main.rs:200:9
+    |
+200 |     for idx in 0..num_threads {
+    |         ^^^ help: if this is intentional, prefix it with an underscore: `_idx`
+
+warning: unused variable: `now_cpu`
+   --> src/main.rs:230:21
+    |
+230 |                 let now_cpu = Instant::now();
+    |                     ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_now_cpu`
+
+warning: variable does not need to be mutable
+   --> src/main.rs:219:17
+    |
+219 |             let mut test_image: image::ImageBuffer<image::Rgba<u8>, Vec<u8>> = image::open(&Path::new("0.jpg")).unwrap().to_rgba8();
+    |                 ----^^^^^^^^^^
+    |                 |
+    |                 help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` on by default
+
+warning: variable does not need to be mutable
+   --> src/main.rs:223:17
+    |
+223 |             let mut kernel_matrix = create_kernel(20);
+    |                 ----^^^^^^^^^^^^^
+    |                 |
+    |                 help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/main.rs:235:21
+    |
+235 |                 let mut image = decode(&input.image.as_bytes()).expect(&format!("b64 decode error: {:?}", bytes));
+    |                     ----^^^^^
+    |                     |
+    |                     help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/main.rs:236:21
+    |
+236 |                 let mut decoded_image = load_from_memory_with_format(&image, ImageFormat::Bmp).unwrap().to_rgba8();
+    |                     ----^^^^^^^^^^^^^
+    |                     |
+    |                     help: remove this `mut`
+
+warning: unused `Result` that must be used
+   --> src/main.rs:270:17
+    |
+270 | /                 server_send.lock().unwrap().blocking_send((bytes::Bytes::from(final_resp),
+271 | |                                                           exe.try_into().unwrap()));
+    | |___________________________________________________________________________________^
+    |
+    = note: this `Result` may be an `Err` variant, which should be handled
+    = note: `#[warn(unused_must_use)]` on by default
+help: use `let _ = ...` to ignore the resulting value
+    |
+270 |                 let _ = server_send.lock().unwrap().blocking_send((bytes::Bytes::from(final_resp),
+    |                 +++++++
+
+warning: `cuda-blur` (bin "cuda-blur") generated 10 warnings (run `cargo fix --bin "cuda-blur"` to apply 8 suggestions)
+    Finished release [optimized] target(s) in 5m 06s
+warning: the following packages contain code that will be rejected by a future version of Rust: buf_redux v0.8.4, multipart v0.18.0
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+     Running `target/x86_64-unknown-linux-gnu/release/cuda-blur`

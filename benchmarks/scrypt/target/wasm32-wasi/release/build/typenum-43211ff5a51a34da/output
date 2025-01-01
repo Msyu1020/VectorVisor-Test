@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/mist/cloud/VectorVisor-master/benchmarks/scrypt/target/wasm32-wasi/release/build/typenum-43211ff5a51a34da/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/mist/cloud/VectorVisor-master/benchmarks/scrypt/target/wasm32-wasi/release/build/typenum-43211ff5a51a34da/out/op.rs
